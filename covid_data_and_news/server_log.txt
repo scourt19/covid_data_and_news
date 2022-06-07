@@ -1,0 +1,252 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 12:55:20] "GET /index?notif=NIH+director%3A+New+Covid-19+variant+%27ought+to+redouble%27+vaccination+and+mitigation+efforts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 12:55:20] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 12:55:20] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 12:55:24] "GET /index?notif=Covid-19+news%3A+UK+will+see+large+wave+of+omicron%2C+scientist+says HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 12:55:24] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 12:55:52] "GET /index?notif=NIH+director%3A+New+Covid-19+variant+%27ought+to+redouble%27+vaccination+and+mitigation+efforts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 12:55:53] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 12:55:53] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 12:55:56] "GET /index?notif=NFL+Adds+Mask+Requirement%2C+Increases+Covid+Testing HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 12:55:56] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 12:55:59] "GET /index?notif=Rotterdam+police+clash+with+rioters+as+Covid+protest+turns+violent HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 12:55:59] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 12:56:03] "GET /index?notif=Mounting+evidence+highlights+the+importance+of+Covid-19+boosters HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 12:56:03] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:36:31] "GET /index?notif=NIH+director%3A+New+Covid-19+variant+%27ought+to+redouble%27+vaccination+and+mitigation+efforts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:36:32] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:36:32] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:36:51] "GET /index?notif=Mounting+evidence+highlights+the+importance+of+Covid-19+boosters HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:36:51] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:36:54] "GET /index?notif=Omicron+is+Here.+Will+We+Use+Our+New+Covid+Drugs+Wisely%3F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:36:54] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:36:58] "GET /index?notif=Appeals+Court+Upholds+Block+on+Biden’s+Vaccine+Mandate+for+Employers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:36:58] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:37:12] "GET /index?update=19%3A38&two=dwdwdwdwd&news=news HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:37:12] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News data has been updated
+INFO:root:News data has been updated
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:38:44] "GET /index?update=19%3A38&two=dwdwdwdwd&news=news HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:38:44] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:39:33] "GET /index?notif=NIH+director%3A+New+Covid-19+variant+%27ought+to+redouble%27+vaccination+and+mitigation+efforts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:39:33] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:39:33] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:39:52] "GET /index?notif=NIH+director%3A+New+Covid-19+variant+%27ought+to+redouble%27+vaccination+and+mitigation+efforts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:39:52] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:39:52] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:40:48] "GET /index?notif=NIH+director%3A+New+Covid-19+variant+%27ought+to+redouble%27+vaccination+and+mitigation+efforts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:40:48] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:40:48] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:40:53] "GET /index?notif=Mounting+evidence+highlights+the+importance+of+Covid-19+boosters HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:40:53] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:40:55] "GET /index?notif=NFL+Adds+Mask+Requirement%2C+Increases+Covid+Testing HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:40:55] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:40:56] "GET /index?notif=Covid-19+Boosters+for+All+Are+On+the+Way HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:40:56] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:40:58] "GET /index?notif=Omicron+is+Here.+Will+We+Use+Our+New+Covid+Drugs+Wisely%3F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:40:58] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:01] "GET /index?notif=Rotterdam+police+clash+with+rioters+as+Covid+protest+turns+violent HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:01] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:03] "GET /index?notif=How+to+prepare+for+another+winter+of+Covid-19%3F+An+expert+weights+in HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:03] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:05] "GET /index?notif=Appeals+Court+Upholds+Block+on+Biden’s+Vaccine+Mandate+for+Employers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:05] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:11] "GET /index?notif=Facebook+deletes+500+accounts+tied+to+fake+Swiss+expert HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:11] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:13] "GET /index?notif=Singapore+to+End+Free+Covid+Care+for+Those+‘Unvaccinated+by+Choice’ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:13] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:19] "GET /index?notif=Russia+reports+record+daily+COVID-19+deaths+-+Reuters HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:19] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:39] "GET /index?notif=Russia%27s+daily+COVID-19+deaths+hit+new+record+high+-+Reuters HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:40] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:42] "GET /index?notif=Sabalenka+says+she+got+vaccinated+after+contracting+COVID-19+-+Reuters HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:42] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:44] "GET /index?notif=U.S.+Senate+Votes+to+Block+President+Biden%27s+Vaccine+Mandate+in+Symbolic+Win+for+Covid-19 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:44] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:46] "GET /index?notif=Denmark+reports+record+daily+COVID-19+infection+numbers+-+Reuters HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:46] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:48] "GET /index?notif=Swiss+group+lights+11288+candles+for+COVID-19+victims+-+Reuters HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:48] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:49] "GET /index?notif=Ranieri+urges+players+to+get+COVID-19+vaccine+-+Reuters HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:49] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:52] "GET /index?notif=All+vaccinated+adults+should+get+a+Covid-19+booster+shot+because+of+the+Omicron+variant%2C+CDC+says HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:52] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:53] "GET /index?notif=Germany%27s+COVID-19+situation+is+dramatic%3A+Merkel+-+Reuters HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:53] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:55] "GET /index?notif=Austria+orders+non-vaccinated+people+into+COVID-19+lockdown+-+Reuters HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:41:55] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News data has been updated
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:42:06] "GET /index?update=19%3A42&two=wffwf&news=news HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:42:06] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:43:07] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:43:07] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:43:07] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:44:09] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:44:09] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:44:47] "GET /index?update=16%3A59&two=kb&covid-data=covid-data&news=news HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 19:44:47] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 20:39:52] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 20:39:52] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 20:39:52] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 22:18:55] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 22:18:55] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 00:45:06] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 00:45:06] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+ERROR:server:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', TimeoutError(60, 'Operation timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/stefan/Documents/covid_data_and_news/covid_data_and_news_pkg/server.py", line 182, in server
+    location = parse_json_covid_data(covid_API_request())[0],
+  File "/Users/stefan/Documents/covid_data_and_news/covid_data_and_news_pkg/covid_data_handler.py", line 95, in covid_API_request
+    api_as_json = api.get_json()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/uk_covid19/api_interface.py", line 367, in get_json
+    for response in self._get(DataFormat.JSON):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/uk_covid19/api_interface.py", line 305, in _get
+    with request("GET", self.endpoint, params=api_params,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', TimeoutError(60, 'Operation timed out'))
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 03:10:29] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [21/Mar/2022 23:03:32] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Mar/2022 23:03:32] "GET /static/images/covid-mask.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Mar/2022 23:03:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [21/Mar/2022 23:03:52] "GET /index?notif=US+Surgeon+General+orders+tech+companies+to+reveal+sources+of+COVID-19+misinformation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Mar/2022 23:03:52] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [21/Mar/2022 23:03:58] "GET /index?notif=Britain+outlines+terms+of+COVID-19+inquiry+-+Reuters+UK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Mar/2022 23:03:58] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Mar/2022 23:04:20] "GET /index?update=23%3A06&two=fawn&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Mar/2022 23:04:20] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [21/Mar/2022 23:04:42] "GET /index?notif=Mild+Covid-19+Linked+to+Increased+Inflammation+in+Cells+Months+Later%2C+Study+Finds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Mar/2022 23:04:42] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2022 21:54:23] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2022 21:54:23] "GET /static/images/covid-mask.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2022 21:54:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2022 21:54:48] "GET /index?notif=Mild+Covid-19+Linked+to+Increased+Inflammation+in+Cells+Months+Later%2C+Study+Finds HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2022 21:54:48] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2022 21:54:52] "GET /index?notif=C.D.C.+Confirms+It+Will+Lift+Public+Health+Order+Restricting+Immigration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2022 21:54:52] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2022 21:54:54] "GET /index?notif=Germany+reports+another+record+COVID-19+incidence+-+Reuters HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2022 21:54:54] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2022 21:55:15] "GET /index?update=21%3A56&two=refresh&repeat=repeat&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2022 21:55:15] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:Scheduled update has been deleted
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2022 21:55:24] "GET /index?update_item=Title%3Arefresh%2C+Time%3A21%3A56 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2022 21:55:24] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2022 21:55:28] "GET /index?notif=Germany+reports+record+COVID-19+incidence+before+easing+curbs+-+Reuters.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2022 21:55:28] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -
+INFO:root:News article has been deleted
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2022 21:55:32] "GET /index?notif=%27Reassuring%27+data+suggests+J%26J+Covid+vaccine+may+still+have+a+role+to+play HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2022 21:55:32] "[36mGET /static/images/covid-mask.png HTTP/1.1[0m" 304 -

@@ -1,0 +1,12 @@
+
+{   
+    "config_url":"https://newsapi.org/v2/everything?",
+    "config_api_key":"658a6c7da9d941169546ed137b0af4b1",
+    "conifig_csv_file":"nation_2021-10-28.csv",
+    "config_local_covid_data":"local_covid_api_data.json",
+    "config_national_covid_data":"national_covid_api_data.json",
+    "config_news_api_data":"news_api_data.json",
+    "interface_template":"index.html",
+    "log_file":"server_log.txt"
+
+}

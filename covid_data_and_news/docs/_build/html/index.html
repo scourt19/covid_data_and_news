@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Welcome to covid_data_and_news’s documentation! &#8212; covid_data_and_news 0.0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="module-covid_data_and_news_pkg.covid_data_handler">
+<span id="welcome-to-covid-data-and-news-s-documentation"></span><h1>Welcome to covid_data_and_news’s documentation!<a class="headerlink" href="#module-covid_data_and_news_pkg.covid_data_handler" title="Permalink to this headline">¶</a></h1>
+<p>Module that creates all the functionality for covid data</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="covid_data_and_news_pkg.covid_data_handler.covid_API_request">
+<span class="sig-prename descclassname"><span class="pre">covid_data_and_news_pkg.covid_data_handler.</span></span><span class="sig-name descname"><span class="pre">covid_API_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">location</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Exeter'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">location_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'ltla'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span></span></span><a class="headerlink" href="#covid_data_and_news_pkg.covid_data_handler.covid_API_request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gather data from an api and return a dictionary of information
+from the api along with the location (local).</p>
+<p>location (str): String of location to be used when looking for the area name.
+location_type (str): String of location type to be used when looking for the area type.
+local_api_for_sched (dict): Dictionary of data pulled from the api, using the
+filters, local_area and local_cases. The data is then saved in a json file called
+local_covid19.json.
+location (str): String that is pulled from the argument to be used in the
+local location of the flask module.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="covid_data_and_news_pkg.covid_data_handler.parse_csv_data">
+<span class="sig-prename descclassname"><span class="pre">covid_data_and_news_pkg.covid_data_handler.</span></span><span class="sig-name descname"><span class="pre">parse_csv_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">csv_filename</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span></span></span><a class="headerlink" href="#covid_data_and_news_pkg.covid_data_handler.parse_csv_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Open the csv file and return the file in a list format.</p>
+<p>csv_filename (str): The csv file written as a string.
+data (list): A list of strings from the csv file.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="covid_data_and_news_pkg.covid_data_handler.parse_json_covid_data">
+<span class="sig-prename descclassname"><span class="pre">covid_data_and_news_pkg.covid_data_handler.</span></span><span class="sig-name descname"><span class="pre">parse_json_covid_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">api_json</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">dict</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#covid_data_and_news_pkg.covid_data_handler.parse_json_covid_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parse through the json data returning either 1 integer along
+with a location or 3 integers along with a location depending
+on what the location type is.</p>
+<p>api_json (dict): Dictionary of api data that has been created by the function
+covid_API_request.
+location (str): String that has been created by pulling the location name
+from the api.
+local_7day_infection_rate (int): Integer created by totalling up the
+last 7 days of local covid cases.
+national_7day_infection_rate: Integer created by totalling up the
+last 7 days of national covid cases.
+hospital_cases (int): Integer created by locating and returning
+the last valid entry point of data.
+deaths_total (int): Integer created by locating and returning the
+last valid entry point of data.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="covid_data_and_news_pkg.covid_data_handler.process_covid_csv_data">
+<span class="sig-prename descclassname"><span class="pre">covid_data_and_news_pkg.covid_data_handler.</span></span><span class="sig-name descname"><span class="pre">process_covid_csv_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">covid_csv_data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#covid_data_and_news_pkg.covid_data_handler.process_covid_csv_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>process the csv data by looping through a static file
+and returning three integers.</p>
+<p>covid_csv_data (list): The list of strings created by the function above.
+last7days_cases (int): Integer created by totalling up the
+last 7 days of covid cases from the last valid entry point of data.
+current_hospital_cases (int): Integer created by locating and returning
+the last valid entry point of data.
+total_deaths (int): Integer created by locating and returning the
+last valid entry point of data.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="covid_data_and_news_pkg.covid_data_handler.schedule_covid_updates">
+<span class="sig-prename descclassname"><span class="pre">covid_data_and_news_pkg.covid_data_handler.</span></span><span class="sig-name descname"><span class="pre">schedule_covid_updates</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">update_interval</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">update_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#covid_data_and_news_pkg.covid_data_handler.schedule_covid_updates" title="Permalink to this definition">¶</a></dt>
+<dd><p>Schedules updates to the covid data at a given time interval
+by using the sched amd time modules.</p>
+<p>update_interval (int): An integer that uses time.time to pull the time
+and is required in the function to set the time in seconds for when the
+covid data is to be updated.
+update_name (str): A string that is used to give a name to the update.</p>
+</dd></dl>
+
+<span class="target" id="module-covid_data_and_news_pkg.covid_news_handling"></span><p>Module that creates all the functionality for covid news</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="covid_data_and_news_pkg.covid_news_handling.news_API_request">
+<span class="sig-prename descclassname"><span class="pre">covid_data_and_news_pkg.covid_news_handling.</span></span><span class="sig-name descname"><span class="pre">news_API_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">covid_terms</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Covid</span> <span class="pre">COVID-19</span> <span class="pre">coronavirus'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span></span></span><a class="headerlink" href="#covid_data_and_news_pkg.covid_news_handling.news_API_request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gather data from an api using an api key and return a dictionary of
+data that has been pulled from the api and saved to a json file called
+news_api_data.json.</p>
+<p>covid_terms (str): Keywords that are used to find data relating to
+a specific topic.
+json_data (dict): Ruturns a dictionary of items that have been pulled
+from the api.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="covid_data_and_news_pkg.covid_news_handling.parse_json_api_data">
+<span class="sig-prename descclassname"><span class="pre">covid_data_and_news_pkg.covid_news_handling.</span></span><span class="sig-name descname"><span class="pre">parse_json_api_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">news_dict</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'news_api_data.json'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span></span></span><a class="headerlink" href="#covid_data_and_news_pkg.covid_news_handling.parse_json_api_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parse through the json data by opening the file and adding the titles
+and contents to their corresponding lists. Then return these lists.</p>
+<p>json_file (str): A json file that is written as a string.
+title_list (list): A list of titles that have been pulled from the api.
+content_list (list): A list of content that has been pulled from the api.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="covid_data_and_news_pkg.covid_news_handling.schedule_news_updates">
+<span class="sig-prename descclassname"><span class="pre">covid_data_and_news_pkg.covid_news_handling.</span></span><span class="sig-name descname"><span class="pre">schedule_news_updates</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">news_update_interval</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">news_update_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#covid_data_and_news_pkg.covid_news_handling.schedule_news_updates" title="Permalink to this definition">¶</a></dt>
+<dd><p>Schedules updates to the covid news data at a given time interval
+by using the sched amd time modules.</p>
+<p>update_interval (int): An integer that uses time.time to pull the time
+and is required in the function to set the time in seconds for when the
+covid news data is to be updated.
+update_name (str): A string that is used to give a name to the update.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="covid_data_and_news_pkg.covid_news_handling.update_news">
+<span class="sig-prename descclassname"><span class="pre">covid_data_and_news_pkg.covid_news_handling.</span></span><span class="sig-name descname"><span class="pre">update_news</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span></span></span><a class="headerlink" href="#covid_data_and_news_pkg.covid_news_handling.update_news" title="Permalink to this definition">¶</a></dt>
+<dd><p>Delete news if the title is in the argument unless the title is already
+in the removed_items list and if the title is in the list_of_dictionaries.
+This title is added to the list of dictionaries.</p>
+<p>title (str): A title that is used to see if the title in either removed_items list
+or if the list_of_dictionaries.
+removed_items (list): A list of titles that have been removed from the list of dictionaries.</p>
+</dd></dl>
+
+<div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">covid_data_and_news</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, Stefan Court.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.3.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
